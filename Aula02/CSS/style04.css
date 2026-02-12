@@ -1,0 +1,14 @@
+body{
+    background-color: greenyellow;
+}
+.el1{
+    background-color: darkorchid;
+    width: 500px;
+}
+
+.ex1{
+    width: 500px;
+    padding: 50px;
+    background-color: darkblue;
+    box-sizing: border-box;
+}
