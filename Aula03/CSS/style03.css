@@ -1,0 +1,23 @@
+body{
+    background-color: darkslategray;
+    color: white
+}
+
+.ex1{
+    text-decoration-line: underline;
+    text-decoration-style: solid ;
+    text-decoration-color: greenyellow;
+}
+
+.ex2{
+    text-decoration-line: overline;
+    text-decoration-style: double;
+    text-decoration-color: fuchsia;
+}
+
+.ex3{
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+
+}
