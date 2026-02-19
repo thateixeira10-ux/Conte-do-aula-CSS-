@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+}
+
+
+
+a:link {
+    color: rgb(5, 146, 211);
+    background-color: chartreuse;
+}
+
+a:active {
+    color: rgb(140, 0, 255);
+    background-color: blue;
+}
+
+a:visited {
+    color: forestgreen;
+    background-color: coral;
+}
+
+a:hover {
+    color: rgb(253, 1, 1);
+    background-color: white;
+}
+
+a {
+    cursor: url(../car.svg), auto;
+}
+
+.link-btn:link, .link-btn:visited {
+    background-color: darkblue;
+    color: white;
+    padding: 20px 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.link-btn:hover, .link-btn:active {
+    background-color: rgb(1, 1, 36);
+    
+}

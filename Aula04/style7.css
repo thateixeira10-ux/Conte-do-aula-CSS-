@@ -1,0 +1,8 @@
+body {
+    background-color: cadetblue;
+}
+
+.ex1 {
+    list-style-image: url(../trustpilot.svg);  
+    list-style-type: disc;
+}

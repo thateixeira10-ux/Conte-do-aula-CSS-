@@ -1,0 +1,21 @@
+body {
+    background-color: cornflowerblue;
+
+}
+
+.ex1 {
+    background-color: blueviolet;
+    width: 400px;
+    height: 300px;
+}
+
+.div1 {
+    background-color: rgb(5, 255, 172);
+    width: 680px;
+}
+
+.ex2 {
+    background-color: chocolate;
+    max-width: 680px;
+}
+
