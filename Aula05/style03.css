@@ -1,0 +1,119 @@
+body{
+    background-color: indigo;
+    color: white;
+}
+/*Exemplos de Alin items center*/
+.ex1{
+    display:flex;
+    height: 200px;
+    align-items: center;
+    background-color: mediumpurple;
+    gap: 30px;
+}
+
+.ex1 div{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    color: darkmagenta;
+}
+
+/*Exemplos de Alin items: flex-start*/
+.ex2{
+    display:flex;
+    height: 200px;
+    align-items: flex-start;
+    background-color: mediumpurple;
+    gap: 30px;
+}
+
+.ex2 div{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    color: darkmagenta;
+}
+
+/*Exemplos de Alin items: flex-end*/
+.ex3{
+    display:flex;
+    height: 200px;
+    align-items: flex-end;
+    background-color: mediumpurple;
+    gap: 30px;
+}
+
+.ex3 div{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    color: darkmagenta;
+}
+
+/*Exemplos de Alin items: flex-stretch*/
+.ex4{
+    display:flex;
+    height: 200px;
+    align-items: first stretch;
+    background-color: mediumpurple;
+    gap: 30px;
+}
+
+.ex4 div{
+    width: 100px;
+    background-color: white;
+    text-align: center;
+    color: darkmagenta;
+}
+
+.ex5{
+    display:flex;
+    height: 400px;
+    align-content: center;
+    background-color: mediumpurple;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.ex5 div{
+    width: 100px;
+    background-color: white;
+    text-align: center;
+    color: darkmagenta;
+}
+
+.ex6{
+    display:flex;
+    height: 400px;
+    align-content: space-between;
+    background-color:midnightblue;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.ex6 div{
+    width: 100px;
+    background-color: white;
+    text-align: center;
+    color: darkmagenta;
+}
+
+.ex7{
+    display:flex;
+    height: 400px;
+    align-content:center;
+    justify-content: center;
+    background-color:midnightblue;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.ex7 div{
+    width: 100px;
+    background-color: white;
+    text-align: center;
+    color: darkmagenta;
+}
