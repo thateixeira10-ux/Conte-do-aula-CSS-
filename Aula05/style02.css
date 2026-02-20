@@ -1,0 +1,87 @@
+body{
+    background-color: darkslategray;
+    color: white;
+}
+
+.ex1{
+    display: flex;
+    background-color: darkolivegreen;
+    justify-content: center;
+    gap: 30px;
+}
+
+.ex1 div{
+width: 100px;
+height: 100px;
+text-align: center;
+background-color: darkkhaki;
+}
+
+.ex2{
+    display: flex;
+    background-color: darkolivegreen;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.ex2 div{
+width: 100px;
+height: 100px;
+text-align: center;
+background-color: darkkhaki;
+}
+
+.ex3{
+    display: flex;
+    background-color: darkolivegreen;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.ex3 div{
+width: 100px;
+height: 100px;
+text-align: center;
+background-color: darkkhaki;
+}
+
+.ex4{
+    display: flex;
+    background-color: darkolivegreen;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.ex4 div{
+width: 100px;
+height: 100px;
+text-align: center;
+background-color: darkkhaki;
+}
+
+.ex5{
+    display: flex;
+    background-color: darkolivegreen;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.ex5 div{
+width: 100px;
+height: 100px;
+text-align: center;
+background-color: darkkhaki;
+}
+
+.ex6{
+    display: flex;
+    background-color: darkolivegreen;
+    justify-content: space-evenly;
+}
+
+.ex6 div{
+width: 100px;
+height: 100px;
+text-align: center;
+background-color: darkkhaki;
+}
