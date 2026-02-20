@@ -1,0 +1,104 @@
+body {
+  background-color: darkorchid;
+}
+
+.ex1 {
+  background-color: orchid;
+  display: flex;
+  gap: 30px;
+}
+
+.ex1 div {
+  width: 100px;
+  height: 100px;
+  background-color: royalblue;
+}
+
+/*Exemplo de flex-grow*/
+.ex2 {
+  background-color: orchid;
+  display: flex;
+  gap: 30px;
+}
+
+.ex2 div {
+  width: 100px;
+  height: 100px;
+  background-color: royalblue;
+}
+
+/*Exemplo de flex-shrink*/
+.ex3 {
+  background-color: orchid;
+  display: flex;
+  gap: 30px;
+}
+
+.ex3 div {
+  width: 100px;
+  height: 100px;
+  background-color: royalblue;
+}
+
+/*Exemplo de flex-basis*/
+.ex4 {
+  background-color: orchid;
+  display: flex;
+  gap: 30px;
+}
+
+.ex4 div {
+  width: 100px;
+  height: 100px;
+  background-color: royalblue;
+}
+
+/*Exemplo de Aling-self: center*/
+.ex5 {
+  background-color: orchid;
+  display: flex;
+  gap: 30px;
+  height: 200px;
+}
+
+.ex5 div {
+  width: 100px;
+  background-color: royalblue;
+}
+
+.ex5 #it3{
+    background-color: royalblue;
+    height:100px ;
+    align-self: center;
+}
+
+/*Exemplo de Aling-self: flex-star e Aling-self; flex-end*/
+.ex6 {
+  background-color: orchid;
+  display: flex;
+  gap: 30px;
+  height: 200px;
+}
+
+.ex6 div {
+  width: 100px;
+  background-color: royalblue;
+}
+
+.ex6 #item2{
+    background-color: royalblue;
+    height:100px ;
+    align-self: flex-end;
+}
+
+.ex6 #item3{
+    background-color: royalblue;
+    height:100px ;
+    align-self: center;
+}
+
+.ex6 #item4{
+    background-color: royalblue;
+    height:100px ;
+    align-self: flex-end;
+}
