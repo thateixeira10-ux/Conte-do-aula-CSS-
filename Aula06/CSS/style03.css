@@ -1,3 +1,152 @@
 body{
     background-color: cornflowerblue;
 }
+
+.ex1{
+    background-color: antiquewhite;
+    grid-template-columns: auto auto auto;
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+}
+
+.ex1 div{
+    height: 30px;
+    background-color: khaki;
+    border: 1px solid black;
+    align-content: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.ex2{
+    background-color: antiquewhite;
+    grid-template-columns: 200px 80PX auto;
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+}
+
+.ex2 div{
+    height: 30px;
+    background-color: khaki;
+    border: 1px solid black;
+    align-content: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.ex3{
+    background-color: antiquewhite;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+}
+
+.ex3 div{
+    height: 30px;
+    background-color: khaki;
+    border: 1px solid black;
+    align-content: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.ex4{
+    background-color: antiquewhite;
+    grid-template-columns: minmax(180px,1fr) 150px 150px;
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+}
+
+.ex4 div{
+    height: 30px;
+    background-color: khaki;
+    border: 1px solid black;
+    align-content: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.ex5{
+    background-color: antiquewhite;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: 80px 200px;
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+}
+
+.ex5 div{
+    background-color: khaki;
+    border: 1px solid black;
+    align-content: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.ex6{
+    background-color: antiquewhite;
+    grid-template-columns:repeat(3,1fr);
+    display: grid;
+    padding: 5px;
+    column-gap: 20px;
+}
+
+.ex6 div{
+    background-color: khaki;
+    border: 1px solid black;
+    align-content: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.ex7{
+    background-color: antiquewhite;
+    grid-template-columns:auto auto auto;
+    display: grid;
+    padding: 5px;
+    row-gap: 40px;
+}
+
+.ex7 div{
+    background-color: khaki;
+    border: 1px solid black;
+    align-content: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.ex8{
+    background-color: antiquewhite;
+    grid-template-columns:auto auto auto;
+    display: grid;
+    padding: 5px;
+    gap: 40px;
+}
+
+.ex8 div{
+    background-color: khaki;
+    border: 1px solid black;
+    align-content: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.ex9{
+    background-color: antiquewhite;
+    grid-template-columns:auto auto auto;
+    display: grid;
+    padding: 5px;
+    gap: 10px 50px;
+}
+
+.ex9 div{
+    background-color: khaki;
+    border: 1px solid black;
+    align-content: center;
+    font-family: sans-serif;
+    text-align: center;
+}
