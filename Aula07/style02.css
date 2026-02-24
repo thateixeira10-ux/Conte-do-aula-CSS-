@@ -1,0 +1,122 @@
+body{
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+/*Exemplo de Aling-content: center*/
+.ex1{
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    background-color: indianred;
+    color: white;
+    align-content: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.ex1 div{
+    width: 100px;
+    height: 100px;
+    background-color: slategray;
+    text-align: center;
+    align-content: center;
+}
+
+/*Exemplo de Aling-content: space-evenly*/
+.ex2{
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    background-color: indianred;
+    color: white;
+    align-content: space-evenly;
+    gap: 10px;
+    justify-content: center;
+}
+
+.ex2 div{
+    width: 100px;
+    height: 100px;
+    background-color: slategray;
+    text-align: center;
+    align-content: center;
+}
+
+/*Exemplo de Aling-content: space-around*/
+.ex3{
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    background-color: indianred;
+    color: white;
+    align-content: space-around;
+    gap: 10px;
+    justify-content: center;
+}
+
+.ex3 div{
+    width: 100px;
+    height: 100px;
+    background-color: slategray;
+    text-align: center;
+    align-content: center;
+}
+
+/*Exemplo de Aling-content: space-between*/
+.ex4{
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    background-color: indianred;
+    color: white;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.ex4 div{
+    width: 100px;
+    height: 100px;
+    background-color: slategray;
+    text-align: center;
+    align-content: center;
+}
+
+/*Exemplo de Aling-content: start*/
+.ex5{
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    background-color: indianred;
+    color: white;
+    align-content: start;
+    gap: 10px;
+    justify-content: center;
+}
+
+.ex5 div{
+    width: 100px;
+    height: 100px;
+    background-color: slategray;
+    text-align: center;
+    align-content: center;
+}
+
+/*Exemplo de Aling-content: end*/
+.ex6{
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    background-color: indianred;
+    color: white;
+    align-content: end;
+    gap: 10px;
+    justify-content: center;
+}
+
+.ex6 div{
+    width: 100px;
+    height: 100px;
+    background-color: slategray;
+    text-align: center;
+    align-content: center;
+}

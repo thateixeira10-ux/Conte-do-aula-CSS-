@@ -1,0 +1,98 @@
+body {
+  background-color: blue;
+  color: white;
+  font-family: san;
+}
+
+.ex1 {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-evenly;
+  background-color: aquamarine;
+}
+
+.ex1 div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  background-color: darkcyan;
+}
+
+.ex2 {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-around;
+  background-color: aquamarine;
+}
+
+.ex2 div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  align-content: center;
+  background-color: darkcyan;
+}
+
+.ex3{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.ex3 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: darkcyan;
+}
+
+.ex4{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.ex4 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: darkcyan;
+}
+
+.ex5{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3,auto);
+    justify-content: start;
+    background-color: aquamarine;
+}
+
+.ex5 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: darkcyan;
+}
+
+.ex6{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3,auto);
+    justify-content: end;
+    background-color: aquamarine;
+}
+
+.ex6 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: darkcyan;
+}
